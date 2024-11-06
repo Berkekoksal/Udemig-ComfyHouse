@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ComfyHouse</title>
+    <!--* Custom Css Link -->
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!--* Fontawesome Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!--* Navbar Area  -->
+    <header>
+      <div class="nav-left">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+      <div class="nav-main">
+        <img src="./images/logo.svg" alt="logo-image" />
+      </div>
+      <div class="nav-right">
+        <i class="fa-solid fa-cart-plus"></i>
+        <div class="cart-items">0</div>
+      </div>
+    </header>
+    <!--* Hero Area  -->
+    <section class="hero">
+      <div class="banner">
+        <h1 class="banner-title">furniture colloection</h1>
+        <button class="banner-btn">shop now</button>
+      </div>
+    </section>
+    <!--*  Products Area  -->
+    <section class="products">
+      <div class="products-title">
+        <h1>our products</h1>
+      </div>
+      <div class="products-center">
+        <!--* Card -->
+        <div class="product-box">
+          <div class="img-container">
+            <img src="./images/product-1.jpeg" alt="" />
+            <button class="bag-btn" data-id="1">
+              <i class="fas fa-shopping-cart"></i>
+              <span>add to bag</span>
+            </button>
+          </div>
+          <div class="product-info">
+            <h3>queen bag</h3>
+            <span>$25</span>
+          </div>
+        </div>
+        <!--* Card -->
+        <div class="product-box">
+          <div class="img-container">
+            <img src="./images/product-1.jpeg" alt="" />
+            <button class="bag-btn" data-id="1">
+              <i class="fas fa-shopping-cart"></i>
+              <span>add to bag</span>
+            </button>
+          </div>
+          <div class="product-info">
+            <h3>queen bag</h3>
+            <span>$25</span>
+          </div>
+        </div>
+        <!--* Card -->
+        <div class="product-box">
+          <div class="img-container">
+            <img src="./images/product-1.jpeg" alt="" />
+            <button class="bag-btn" data-id="1">
+              <i class="fas fa-shopping-cart"></i>
+              <span>add to bag</span>
+            </button>
+          </div>
+          <div class="product-info">
+            <h3>queen bed</h3>
+            <span>$25</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- *  Shopping Cart Area  -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <span class="close-cart">
+          <i class="fas fa-window-close"></i>
+        </span>
+        <h2>your cart</h2>
+        <div class="cart-content">
+          <!--* cart item -->
+          <div class="cart-item">
+            <img src="./images/product-1.jpeg" alt="cart-image" />
+            <div>
+              <h4>queen bed</h4>
+              <h5>$25</h5>
+              <span class="remove-item">remove</span>
+            </div>
+            <div>
+              <i class="fas fa-chevron-up"></i>
+              <p class="item-amount">1</p>
+              <i class="fas fa-chevron-down"></i>
+            </div>
+          </div>
+        </div>
+        <div class="cart-footer">
+          <h3>your total : <span class="cart-total">$0</span></h3>
+          <button class="cart-footer-clear">clear cart</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
