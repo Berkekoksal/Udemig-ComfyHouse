@@ -34,7 +34,24 @@ ComfyHouse is a simple and elegant front-end design for an e-commerce platform s
 - **HTML5**
 - **CSS3**
 - **Font Awesome** - For icons
-- **Google Fonts** - For the `Exo 2` font
+
+## 📘 Usage
+View Products: Explore all available products in the Products section.
+Add to Cart: Click the Add to Cart button on each product card to add items to your cart.
+Cart Details: Click the cart icon at the top to view added items and the total amount.
+
+## 🖼️ Screenshots
+Home Page
+
+Product Cards
+
+Shopping Cart
+
+## 🔧 To-Do
+ Implement dynamic cart functionality with JavaScript for adding/removing items
+ Add category filters for products
+ Create a detailed product page for each item
+ Save cart data using localStorage to maintain state
 
 ## 📦 Installation
 To run the project locally, follow these steps:
